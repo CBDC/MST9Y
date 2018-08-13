@@ -40,10 +40,10 @@
       required="True"/>
 
    <column name="Glon" type="real"
-     unit="deg" ucd="pos.galactic.lon"
-     tablehead="Glon verbLevel="1"
-     description="Longitude in galactic coordinates"
-     required="True"/>
+      unit="deg" ucd="pos.galactic.lon"
+      tablehead="Glon" verbLevel="1"
+      description="Longitude in galactic coordinates"
+      required="True"/>
 
    <column name="Glat" type="real"
      unit="deg" ucd="pos.galactic.lat"
@@ -81,25 +81,25 @@
      description="Maximum radius, the distance from the cluster centroid to its farthest photon."
      required="True"/>
 
-    <column name="3FHL_cntp" type="text"
+    <column name="FHL3_cntp" type="text"
       ucd="meta.id.assoc;meta.main"
       tablehead="3FHL_cntp" verbLevel="1"
       description="3FHL Counterpart"
       required="True"/>
 
-   <column name="3FGL_cntp" type="text"
+   <column name="FGL3_cntp" type="text"
      ucd="meta.id.assoc;meta.main"
      tablehead="3FGL_cntp" verbLevel="1"
      description="3FGL Counterpart"
      required="True"/>
 
-   <column name="2FGL_cntp" type="text"
+   <column name="FGL2_cntp" type="text"
      ucd="meta.id.assoc"
      tablehead="3FGL_cntp" verbLevel="1"
      description="3FGL Counterpart"
      required="True"/>
 
-   <column name="1FGL_cntp" type="text"
+   <column name="FGL1_cntp" type="text"
      ucd="meta.id.assoc"
      tablehead="3FGL_cntp" verbLevel="1"
      description="3FGL Counterpart"
@@ -111,7 +111,7 @@
      description="MST Counterpart"
      required="True"/>
 
-   <column name="1BIGB_cntp" type="text"
+   <column name="BIGB1_cntp" type="text"
      ucd="meta.id.assoc"
      tablehead="1BIGB_cntp" verbLevel="1"
      description="1BIGB Counterpart"
