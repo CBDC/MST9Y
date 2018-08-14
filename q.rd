@@ -69,13 +69,13 @@
      description="Magnitude of the cluster, defined as M =Ng."
      required="True"/>
 
-   <column name="Rm" type="real"
+   <column name="R_m" type="real"
      unit="deg" ucd="phys.virial "
      tablehead="Rm" verbLevel="1"
      description="Median radius, the distance from the cluster centroid containing 50% of the photons"
      required="True"/>
 
-   <column name="Rmax" type="real"
+   <column name="R_max" type="real"
      unit="deg" ucd="phys.virial "
      tablehead="Rmax" verbLevel="1"
      description="Maximum radius, the distance from the cluster centroid to its farthest photon."
@@ -111,7 +111,7 @@
      description="MST Counterpart"
      required="True"/>
 
-   <column name="BIGB1_cntp" type="text"
+   <column name="BIGB_cntp" type="text"
      ucd="meta.id.assoc"
      tablehead="1BIGB_cntp" verbLevel="1"
      description="1BIGB Counterpart"
